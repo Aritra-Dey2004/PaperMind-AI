@@ -1,4 +1,6 @@
-# PaperMind AI – GenAI-Powered Research Paper Assistant Using RAG
+# 🧠 PaperMind AI
+
+## GenAI-Powered Research Paper Assistant Using RAG
 
 PaperMind AI is a Generative AI-based research paper assistant that helps users understand, analyze, and interact with research papers. The system allows users to upload research paper PDFs and generate summaries, ask source-grounded questions, create quizzes, compare papers, generate PowerPoint content, and search research papers using arXiv Paper Finder.
 
@@ -6,13 +8,13 @@ This project was developed as a capstone/internship project under the IBM-AICTE 
 
 ---
 
-## Project Title
+## 📌 Project Title
 
 **GenAI-Powered Research Paper Simplifier and Knowledge Assistant Using RAG**
 
 ---
 
-## Problem Statement
+## ❗ Problem Statement
 
 Students and researchers often face difficulty understanding complex research papers due to technical language, lengthy content, mathematical explanations, and domain-specific terminology. Manually reading, summarizing, comparing, and preparing presentations from research papers takes significant time and effort.
 
@@ -20,45 +22,45 @@ There is a need for an AI-powered system that can simplify research papers, answ
 
 ---
 
-## Proposed Solution
+## 💡 Proposed Solution
 
-PaperMind AI provides an interactive web application where users can upload research paper PDFs and use AI-powered tools to understand the content. The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant chunks from the uploaded paper and generate grounded answers.
+PaperMind AI provides an interactive web application where users can upload research paper PDFs and use AI-powered tools to understand the content. The system uses Retrieval-Augmented Generation, or RAG, to retrieve relevant chunks from the uploaded paper and generate grounded answers.
 
 The system also includes an arXiv Paper Finder feature that helps users search research papers by topic and access abstracts and PDF links.
 
 ---
 
-## Key Features
+## ✨ Key Features
 
-* PDF upload and text extraction
-* Text cleaning and chunking
-* Embedding generation using Sentence Transformers
-* FAISS-based vector search
-* RAG-based question answering
-* Research paper summarization
-* Key contribution extraction
-* Methodology and result extraction
-* Future scope generation
-* Interactive quiz generation
-* Research paper comparison
-* PowerPoint presentation generation
-* arXiv Paper Finder for discovering research papers
-* Hybrid AI response generation using Gemini, Groq, and Ollama fallback
+* 📄 PDF upload and text extraction
+* 🧹 Text cleaning and chunking
+* 🧠 Embedding generation using Sentence Transformers
+* 🔎 FAISS-based vector search
+* 💬 RAG-based question answering
+* 📝 Research paper summarization
+* 🎯 Key contribution extraction
+* ⚙️ Methodology and result extraction
+* 🚀 Future scope generation
+* 🧩 Interactive quiz generation
+* 📊 Research paper comparison
+* 📑 PowerPoint presentation generation
+* 🔍 arXiv Paper Finder for discovering research papers
+* 🔁 Hybrid AI response generation using Gemini, Groq, and Ollama fallback
 
 ---
 
-## Technology Used
+## 🛠️ Technology Used
 
-### Frontend
+### 🌐 Frontend
 
 * Streamlit
 * HTML/CSS inside Streamlit for custom UI
 
-### Backend
+### 🐍 Backend
 
 * Python
 
-### AI/ML Components
+### 🤖 AI/ML Components
 
 * Sentence Transformers
 * FAISS Vector Database
@@ -66,19 +68,19 @@ The system also includes an arXiv Paper Finder feature that helps users search r
 * Groq API
 * Ollama Local LLM fallback
 
-### PDF and Document Processing
+### 📄 PDF and Document Processing
 
 * PyPDF
 * Python-PPTX
 
-### Research Paper Search
+### 🔍 Research Paper Search
 
 * arXiv API
 * Feedparser
 
 ---
 
-## System Development Approach
+## 🧱 System Development Approach
 
 The system follows a modular pipeline:
 
@@ -95,11 +97,9 @@ The system follows a modular pipeline:
 
 ---
 
-## RAG Workflow
+## 🔁 RAG Workflow
 
 The project uses Retrieval-Augmented Generation to improve answer accuracy.
-
-Workflow:
 
 ```text
 PDF Upload
@@ -125,7 +125,7 @@ Source-Grounded Answer
 
 ---
 
-## Project Modules
+## 📁 Project Modules
 
 ```text
 ResearchPaperAssistant PROJECT/
@@ -153,16 +153,16 @@ ResearchPaperAssistant PROJECT/
 
 ---
 
-## Installation Guide
+## ⚙️ Installation Guide
 
-### Step 1: Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
 ```
 
-### Step 2: Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 
 For Windows:
 
@@ -178,13 +178,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Step 3: Install Requirements
+### 3️⃣ Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Create `.env` File
+### 4️⃣ Create `.env` File
 
 Create a `.env` file in the root folder and add your API keys:
 
@@ -195,7 +195,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 Note: If Gemini or Groq is unavailable, the system can use Ollama local fallback if Ollama is installed and running.
 
-### Step 5: Run the Application
+### 5️⃣ Run the Application
 
 ```bash
 streamlit run app.py
@@ -203,7 +203,7 @@ streamlit run app.py
 
 ---
 
-## Requirements
+## 📦 Requirements
 
 ```text
 streamlit
@@ -223,13 +223,13 @@ feedparser
 
 ---
 
-## How to Use
+## 🚀 How to Use
 
-### 1. Upload Research Paper
+### 📄 1. Upload Research Paper
 
 Upload one or more PDF research papers.
 
-### 2. Generate Insights
+### 📌 2. Generate Insights
 
 Use the Insights tab to generate:
 
@@ -239,29 +239,29 @@ Use the Insights tab to generate:
 * Results
 * Future Work
 
-### 3. Ask Questions
+### 💬 3. Ask Questions
 
 Use the Q&A tab to ask questions about the uploaded paper. The system retrieves relevant chunks and generates answers using RAG.
 
-### 4. Generate Quiz
+### 🧩 4. Generate Quiz
 
 Use the Quiz tab to generate multiple-choice questions from the paper.
 
-### 5. Generate PPT
+### 📑 5. Generate PPT
 
 Use the PPT tab to generate a presentation draft from the uploaded research paper.
 
-### 6. Compare Papers
+### 📊 6. Compare Papers
 
 Upload at least two research papers and use the Compare tab to compare them based on objective, methodology, results, advantages, and limitations.
 
-### 7. Find Research Papers
+### 🔎 7. Find Research Papers
 
 Use the arXiv Paper Finder tab to search research papers by topic. The system returns titles, authors, abstracts, publication dates, and PDF links.
 
 ---
 
-## arXiv Paper Finder Usage
+## 🔍 arXiv Paper Finder Usage
 
 The arXiv Paper Finder helps users discover research papers before uploading them into the system.
 
@@ -280,7 +280,7 @@ The system returns:
 * arXiv paper link
 * PDF download link
 
-Ultimate benefit:
+Ultimate workflow:
 
 ```text
 Find paper → Upload paper → Analyze paper → Ask questions → Generate quiz/PPT
@@ -288,7 +288,7 @@ Find paper → Upload paper → Analyze paper → Ask questions → Generate qui
 
 ---
 
-## Result
+## ✅ Result
 
 The system successfully performs AI-powered research paper analysis. It can extract text from PDFs, create embeddings, retrieve relevant chunks, and generate meaningful responses using LLMs.
 
@@ -304,7 +304,7 @@ Expected outputs include:
 
 ---
 
-## Future Scope
+## 🌱 Future Scope
 
 * Add login and user history
 * Add support for more file formats like DOCX and TXT
@@ -317,7 +317,7 @@ Expected outputs include:
 
 ---
 
-## Basic Q&A
+## ❓ Basic Q&A
 
 ### Q1. What is PaperMind AI?
 
@@ -361,7 +361,7 @@ Yes. It is useful for students preparing literature reviews, seminars, assignmen
 
 ---
 
-## Troubleshooting Guide
+## 🧯 Troubleshooting Guide
 
 ### Problem 1: `ModuleNotFoundError: No module named 'pypdf'`
 
@@ -474,8 +474,6 @@ ollama pull llama3.2
 
 Solution:
 
-Run:
-
 ```bash
 streamlit run app.py
 ```
@@ -520,8 +518,6 @@ Possible reasons:
 
 Solution:
 
-Install:
-
 ```bash
 pip install python-pptx
 ```
@@ -552,7 +548,7 @@ transformer summarization
 
 ---
 
-## Important Note
+## 🔐 Important Note
 
 Do not upload your `.env` file publicly because it contains private API keys.
 
@@ -568,7 +564,7 @@ research_presentation.pptx
 
 ---
 
-## References
+## 📚 References
 
 * Python
 * Streamlit
@@ -584,7 +580,7 @@ research_presentation.pptx
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Name:** Aritra Dey
 **Department:** Computer Science and Engineering / Data Science
@@ -592,7 +588,7 @@ research_presentation.pptx
 
 ---
 
-## Project Links
+## 🔗 Project Links
 
 ```text
 Project Repository Link: Add your repository link here
@@ -601,4 +597,3 @@ Application Link: Add your application link here
 
 ---
 
-## Thank You
