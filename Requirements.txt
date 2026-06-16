@@ -1,0 +1,13 @@
+streamlit
+pypdf
+sentence-transformers
+faiss-cpu
+google-generativeai
+python-dotenv
+groq
+requests
+python-pptx
+torch
+torchvision
+numpy
+feedparser
