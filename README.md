@@ -588,12 +588,7 @@ research_presentation.pptx
 
 ---
 
-## 🔗 Project Links
 
-```text
-Project Repository Link: Add your repository link here
-Application Link: Add your application link here
-```
 
 ---
 
