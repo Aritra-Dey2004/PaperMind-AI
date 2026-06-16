@@ -548,21 +548,7 @@ transformer summarization
 
 ---
 
-## 🔐 Important Note
 
-Do not upload your `.env` file publicly because it contains private API keys.
-
-Create a `.gitignore` file and add:
-
-```text
-.env
-venv/
-__pycache__/
-*.pyc
-research_presentation.pptx
-```
-
----
 
 ## 📚 References
 
